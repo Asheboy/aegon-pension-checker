@@ -4,5 +4,8 @@
   "main": "pension.js",
   "repository": "git@github.com:Asheboy/aegon-pension-checker.git",
   "author": "Ash Summers <ash.summers@clock.co.uk>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^21.4.1"
+  }
 }
