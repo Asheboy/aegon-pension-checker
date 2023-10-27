@@ -21,7 +21,7 @@ const wirepusherId = process.env.WIREPUSHER_ID;
     await page.type("#inputPassword", password);
     await Promise.all([page.click(".btn-primary"), page.waitForNavigation()]);
 
-    await page.waitFor(3000);
+    await new Promise((r) => setTimeout(r, 3000));
 
     await Promise.all([
       page.click("td > a"),
